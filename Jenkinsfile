@@ -1,5 +1,5 @@
 Pipeline {
-    agent any | none
+    agent any 
 
     stages ('CI') {
         stage('Checkout'){
