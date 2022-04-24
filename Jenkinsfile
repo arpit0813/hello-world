@@ -1,27 +1,27 @@
-Pipeline {
+pipeline {
     agent any 
 
     stages ('CI') {
         stage('Checkout'){
-            Steps {
+            steps {
                 //Script
-                echo 'checkout'
+                echo 'checkout 1'
             }
 
         }
     
         stage('Build'){
-            Steps {
+            steps {
                 //Script
-                echo 'Build'
+                echo 'Build 1'
             }
 
         }
  
          stage('Test'){
-            Steps {
+            steps {
                 //Script
-                echo 'Test'
+                echo 'Test 1'
             }
 
         }
