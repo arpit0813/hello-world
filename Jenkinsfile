@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        echo 'Checkout test'
+        echo 'Checkout testing'
         checkout scm
       }
     }
